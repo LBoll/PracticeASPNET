@@ -5,7 +5,7 @@ using System.Web;
 
 namespace PracticeASPNET.Models
 {
-    public class Product
+    public class Register
     {
 
         private string firstname;
@@ -13,7 +13,7 @@ namespace PracticeASPNET.Models
         private string email;
         private string password;
 
-        public Product()
+        public Register()
         {
             firstname = "";
             lastname = "";
@@ -22,7 +22,7 @@ namespace PracticeASPNET.Models
 
         }
 
-        public Product(string firstname, string lastname, string email, string password)
+        public Register(string firstname, string lastname, string email, string password)
         {
             this.firstname = firstname;
             this.lastname = lastname;

@@ -1,15 +1,15 @@
 ﻿
 @{
-    ViewBag.Title = "AddProduct";
+    ViewBag.Title = "AddRegister";
 }
 
 <h2>Register, or continue as a guest.</h2>
-@model PracticeASPNET.Models.Product
-<form action="/Home/ProcessNewProduct" method="post">
+@model PracticeASPNET.Models.Register
+
+<form action="/Home/ProcessRegister" method="post">
     First Name: <input type="text" name="FirstName" /><br />
     Last Name: <input type="text" name="LastName" /><br />
     Email: <input type="text" name="Email"><br />
     Password: <input type="password" name="Password" /><br />
     <input type="submit" value="Register" />
-
 </form>
